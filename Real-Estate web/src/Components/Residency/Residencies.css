@@ -1,0 +1,76 @@
+.R-Wrapper{
+    background: #1a1a1a;
+}
+.R-Container{
+    overflow: hidden;
+    position: relative;
+}
+.Best-Choices{
+    color: #E94560;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+.Popular{
+    color: #ECDBBA;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.R-Card{
+    gap: 0.6rem;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: max-content;
+    margin: auto;
+    transition: all 300ms ease-in;
+}
+.R-Card>img{
+    width: 30%;
+    max-width: 30rem;
+}
+.R-Card>:nth-child(2){
+    font-size: 1.rem;
+    font-weight: 600;
+}
+.R-Card>:nth-child(3){
+    font-size: 1.5rem;
+}
+.R-Card>:nth-child(4){
+    font-size: 0.7rem;
+    width: 15rem;
+}
+.Residency-Name{
+    color: #ECDBBA;
+}
+.Residency-Describe{
+    color: #ECDBBA;
+    font-size: 0.9rem;
+}
+.R-Card:hover{
+    cursor: pointer;
+    scale: 1.025;
+    background: linear-gradient(
+    180deg, 
+    rgba(26,26,26,1) 10%, 
+    rgba(82,82,82,1) 80%, 
+    rgba(65,65,65,1) 100%);
+
+    box-shadow: 5px 45px 62px -34px rgba(236,219,186,0.51);
+}
+.swiper-Horizontal{
+    overflow: visible;
+}
+.R-Button{
+    align-items: start;
+    right: 0;
+    top: -10rem;
+    gap: 1rem;
+    width: 100%;
+    
+}   
+.R-Button Button{
+    font-size: 1.2rem;
+    padding: 0.2rem 0.8rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

@@ -1,0 +1,57 @@
+.V-Wrapper{
+    background: #1a1a1a;
+
+}
+.V-Container>div{
+    flex: 1;
+}
+
+
+
+/*left-side*/
+.img-Container{
+    width: rem;
+    height: 35rem;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255,255, 0.2);
+    overflow: hidden;
+}
+
+/*right side*/
+.Right-side{
+    gap: 0.5rem;
+}
+.Accordion{
+    margin: 2rem;
+    border: none;
+    
+}
+.AccordionItem{
+    background: #1a1a1a;
+    border: 0.8px solid rgba(128, 128,128, 0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0px 36px 97px -34px rgba(236,219,186,0.99);
+}
+.Accordion-Button{
+    background: #1a1a1a;
+    border: none;
+    cursor: pointer;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+}
+.heading{
+    background: #1a1a1a;
+    border: none;
+    color: #D5CEA3;
+    font-size: 1rem;
+}
+.icon{
+    background: #eeeeff;
+    
+}
+.icon svg{
+    fill: #1a1a1a;
+} 

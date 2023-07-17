@@ -1,0 +1,21 @@
+.S-Wrapper{
+    background: #1a1a1a;
+}
+.S-Container{
+    background: #6F7D8C;
+    border-radius: 1rem;
+    gap: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    border: 10px solid #eae1e1;;
+}
+.Homyz{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.S-inner .secondaryText{
+    font-size: 1.25rem;
+}
+.S-inner .Button{
+    border: 3px solid #1a1a1a;
+}

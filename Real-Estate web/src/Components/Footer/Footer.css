@@ -1,0 +1,22 @@
+.F-Wrapper{
+    background: #1a1a1a;
+}
+.F-Container{
+    justify-content: space-between;
+}
+.F-left{
+    gap: 1rem;
+}
+.F-left>span{
+    color: #D5CAE3;
+}
+.F-Menu{
+    margin-top: 1.5rem;
+    gap: 1.5rem;
+    font-weight: 500;
+}
+.Info{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #6F7D8C;
+}

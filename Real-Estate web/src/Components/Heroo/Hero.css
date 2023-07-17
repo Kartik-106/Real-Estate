@@ -1,0 +1,79 @@
+.Hero-Wrapper{
+
+    position: relative;
+    padding-bottom: 1rem;
+}
+.Hero{
+    justify-content:space-between;
+    align-items: flex-end;
+}
+
+/* left side*/
+.Hero-Circle{
+    height: 4rem;
+    width: 4rem;
+    background: #FF9898;
+    border-radius: 999px;
+    position: absolute;
+    right: 28%;
+    top: -10%;
+    z-index: -1;
+}
+.Hero-left{
+    gap: 3rem;
+}
+
+.Hero-Title{
+    position: relative;
+    z-index: 1;
+    color: #D5CEA3;
+    font-size: 2rem;
+}
+
+.Hero-Description{
+    color: #EAE1E1;
+}
+
+.Search-Box{
+    background: white;
+    border-radius: 5px;
+    border: 3px solid rgba(255, 255, 255, 0.12);
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.Button{
+    background: white;
+}
+.Search-Box>input{
+    border: none;
+    outline: none;
+}
+.stats{
+    width: 100%;
+    justify-content: space-between;
+}   
+.stat>:nth-child(1){
+    font-size: 2rem;
+}
+.stat>:nth-child(1)>:last-child{
+    color: orange;
+}
+
+
+
+/* right side*/
+.img-Container{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.2);
+}
+
+.img-Container>img{
+    width: 100%;
+    height: 100%;
+}

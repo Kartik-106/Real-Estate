@@ -1,0 +1,17 @@
+.APP{
+    position: relative;
+    overflow-x: clip;
+}
+.APP>:nth-child(1){
+    background: #1a1a1a;
+    position: relative;
+}
+.White-Gradient{
+    background: #DBD8E3 ;
+    position: absolute;
+    top: 3%;
+    width: 10rem;
+    height: 10rem;
+    filter: blur(100px);
+    border-radius: 100rem;
+}
